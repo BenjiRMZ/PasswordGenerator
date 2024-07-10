@@ -1,0 +1,86 @@
+body 
+{
+    margin: 0;
+    background-color: #1F2937;
+}
+
+.container
+{
+    border: 5px solid grey;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+
+.first-title
+{
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+}
+
+.second-title
+{
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: -40px;
+  color:  #10B981;
+  margin-left: 20px;  
+}
+
+h4
+{
+   margin-top: -20px;
+    color: white;
+    margin-left: 20px;
+}
+
+button
+{
+    color: white;
+    border: 5px solid #10B981 ;
+    background-color: #10B981 ;
+    width: 205px;
+    height: 45px;
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 27.81px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+
+#field1
+{
+    margin-right: 60px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: #273549;
+    color: #55F991;
+    height: 30px;
+    border: none;
+}
+
+#field2
+{
+    
+    text-align: center;
+    background-color: #273549;
+    color: #55F991;
+    height: 30px;
+    border: none;
+}
+
+.divider {
+    border: none; /* Remove default border */
+    height: 2px; /* Adjust height as needed */
+    background-color: #2F3E53; /* Set the color */
+    margin: 20px 0 ; /* Adjust the spacing as needed */
+}
