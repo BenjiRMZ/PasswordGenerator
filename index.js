@@ -30,7 +30,7 @@ function copyPassword(passwordtext,copybutton)
       navigator.clipboard.writeText(passwordtext).then(function()
     {
         copybutton.textContent = "Copied!";
-        setTimeout(() => button.textContent = text, 1000);
+        setTimeout(() => copybutton.textContent = text, 1000);
     },
     function(err)
     {
