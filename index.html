@@ -9,8 +9,37 @@
             <h1 class ="second-title">random password</h1>
             <h4> Never use an insecure password again</h4>
          </div>
+         <div class = "button-container">
         <div class = "password-button">
             <button onclick="generatePassword()">Generate passwords</button>
+        </div>
+        <div class = "dropdown">
+            <button class = "dropbutton">X</button>
+        <div class="content">
+            <a href="1" id="length1">1</a>
+            <a href="2" id="length2">2</a>
+            <a href="3" id="length3">3</a>
+            <a href="4" id="length4">4</a>
+            <a href="5" id="length5">5</a>
+        </div>
+        </div>
+        </div>
+         <div class="toggles">
+            <label class="switch">
+                <input type="checkbox" id="includeLetters" checked>
+                <span class="slider round"></span>
+                <label>Letters</label>
+            </label>
+            <label class="switch">
+                <input type="checkbox" id="includeNumbers" checked>
+                <span class="slider round"></span>
+                <label>Numbers</label>
+            </label>
+            <label class="switch">
+                <input type="checkbox" id="includeSymbols" checked>
+                <span class="slider round"></span>
+                <label>Symbols</label>
+            </label>
         </div>
         <hr class="divider">
         <div class = "result-fields">
