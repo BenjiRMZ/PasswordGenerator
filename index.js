@@ -90,3 +90,26 @@ function generatePassword()
    return _fieldel1 && _fieldel2;
 }
 
+function copyPassword(passwordtext,copybutton)
+{
+      navigator.clipboard.writeText(passwordtext).then(function()
+    {
+        copybutton.textContent = "Copied!";
+        setTimeout(() => button.textContent = text, 1000);
+    },
+    function(err)
+    {
+        console.error("Could not copy the following text: ", err);
+    });
+}
+
+_fieldel1.addEventListener("click", function()
+{
+    copyPassword(_fieldel1.textContent, _fieldel1)
+});
+
+_fieldel2.addEventListener("click", function()
+{
+    copyPassword(_fieldel2.textContent, _fieldel2)
+});
+
