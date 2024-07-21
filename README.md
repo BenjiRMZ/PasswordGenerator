@@ -1,6 +1,11 @@
 # Random Password Generator
 This is a simple Random Password Generator web application. It generates secure, random passwords based on user-selected criteria. This project was created using HTML, CSS, and JavaScript, and it helped me get introduced to the tools of front-end development.
 
+<picture>
+<img width="465" alt="Preview" src="https://github.com/user-attachments/assets/0fd644d6-84be-4699-9841-183799bac44a">
+
+</picture>
+
 # TRY IT OUT : https://randompwsgenerator.netlify.app
 
 ## Features 
