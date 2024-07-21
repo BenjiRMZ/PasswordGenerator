@@ -3,7 +3,7 @@ This is a simple Random Password Generator web application. It generates secure,
 
 ## Features 
 ```
-- Generate random two passwords with a single click.
+- Generates two random passwords with a single click.
 - Choose the length of the passwords from 1 to 5 characters.
 - Toggle options to include letters, numbers, and symbols in the generated passwords.
 - Responsive design ensuring compatibility across different screen sizes.
