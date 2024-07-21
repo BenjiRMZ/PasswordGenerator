@@ -1,19 +1,28 @@
-# Getting Started
-Install the dependencies and run the project
+# Random Password Generator
+This is a simple Random Password Generator web application. It generates secure, random passwords based on user-selected criteria. This project was created using HTML, CSS, and JavaScript, and it helped me get introduced to the tools of front-end development.
+
+## Features 
 ```
-npm install
-npm start
+- Generate random two passwords with a single click.
+- Choose the length of the passwords from 1 to 5 characters.
+- Toggle options to include letters, numbers, and symbols in the generated passwords.
+- Responsive design ensuring compatibility across different screen sizes.
+- Copy the generated passwords to your clipboard with one click.
 ```
+## Technolgoies Used
+- HTML
+- CSS
+- JavaScript
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## First Steps in Front-End Web Development
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+This project marks my first steps into the world of front-end web development after having only dealt with backend development in my last semester. Here's what I learned:
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+### HTML
+HTML forms the backbone of web pages. In this project, I used HTML to structure the web application, including elements such as buttons, toggle switches, dropdown menus, and result fields
 
-Happy Coding!
+### CSS
+CSS was used to style the web application, giving it a modern and user-friendly appearance. I explored various CSS properties for layout, colors, fonts, and responsive design. This was my first experience with customizing the look and feel of a web page.
+
+### JavaScript
+JavaScript brought interactivity to the application. I learned how to manipulate the DOM (Document Object Model) to dynamically generate passwords, handle user input, and implement clipboard functionality for copying passwords.
