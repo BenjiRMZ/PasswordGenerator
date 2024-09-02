@@ -23,7 +23,7 @@ body
 
 .second-title
 {
-  font-family: "Karla", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 40px;
   margin-top: -40px;
@@ -155,7 +155,7 @@ button
 }
 
 .toggles {
-    margin-left: 40px;
+    margin-left: 140px;
     margin-top: 10px;
 }
 
@@ -213,5 +213,5 @@ button
     top: 7px;
     font-size: 15px;
     margin-top: 40px;
-    margin-left: 5px;
+    margin-left: 15px;
 }
